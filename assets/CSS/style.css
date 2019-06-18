@@ -1,0 +1,29 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color:lightgrey;
+}
+
+#container{
+    max-width: 960px;
+    background-color: lightseagreen;
+    grid-row-gap:1em;
+    padding:32px;
+    font-style: normal;
+    height:80px;
+}
+
+h1{
+float: left;
+}
+nav{
+    float:right;
+}
+img{
+    float:left;
+    margin-right:20px;
+}
+.paragraph{
+    max-width: 960px;
+    grid-column-gap: 1em;
+}
