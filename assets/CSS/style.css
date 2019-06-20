@@ -3,35 +3,48 @@ body{
     font-style: italic;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png);
 }
-
-#container{
-    max-width: 960px;
+header{
     background-color: white;
-    grid-row-gap:1em;
+    grid-row-gap:2em;
     font-style: normal;
-    height:80px;
-    margin: 0 auto;
+    padding:5px;
+    border-radius:5px;
+    height:100px;
 }
+#container{
 
+    max-width: 960px;
+    margin:0 auto;
+}
 h1{
-background-color: white;
-height:80px;
-
+    background-color:teal;
+    height:50px;
+    padding:15px;
+    border:1px solid;
+    box-sizing: border-box;
+margin-top:2px;
+width:300px;
+float: left;
 }
 nav{
     float:right;
 }
-img{
-    float:left;
-    margin-right:20px;
-    max-width: 960px;
-}
-p{
-    max-width: 960px;
-    grid-column-gap: 1em;
+
+#wrapper{
     background-color: white;
-}
-#about{
+    box-sizing: border-box;
+    padding:10px;
     max-width: 960px;
     margin:0 auto;
+    height:500px;
+}
+h2{
+    color:teal;
+    border-bottom: 1px solid grey;
+}
+footer{
+    background-color:grey;
+    padding:4px;
+    border-top: 6px solid teal;
+    text-align: center;
 }
