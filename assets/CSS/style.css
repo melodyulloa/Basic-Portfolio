@@ -1,20 +1,22 @@
 body{
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    background-color:lightgrey;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png);
 }
 
 #container{
     max-width: 960px;
-    background-color: lightseagreen;
+    background-color: white;
     grid-row-gap:1em;
-    padding:32px;
     font-style: normal;
     height:80px;
+    margin: 0 auto;
 }
 
 h1{
-float: left;
+background-color: white;
+height:80px;
+
 }
 nav{
     float:right;
@@ -22,8 +24,14 @@ nav{
 img{
     float:left;
     margin-right:20px;
+    max-width: 960px;
 }
-.paragraph{
+p{
     max-width: 960px;
     grid-column-gap: 1em;
+    background-color: white;
+}
+#about{
+    max-width: 960px;
+    margin:0 auto;
 }
